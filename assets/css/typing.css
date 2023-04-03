@@ -1,0 +1,99 @@
+.speech::first-letter,
+
+.recorder::first-letter {
+  text-transform: capitalize;
+}
+
+#chatbot-container .recorder {
+  color:black;
+  background: #bbc0e9;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 4px 0;
+  max-width: 250px;
+  align-self:flex-end;
+  flex-shrink: 0;
+  font-weight: bold;
+  font-size: 12px;
+
+
+
+}
+
+#chatbot-container .speech {
+  color: black;
+  background: #dce3e0;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 4px 0;
+  flex-shrink: 0;
+  align-self:flex-start ;
+  max-width: 250px;
+  font-weight: bold;
+  font-size: 12px;
+
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: black;
+}
+
+.button:hover {
+  color: #78f;
+}
+
+.fa-telegram-plane {
+  font-size: 36px;
+  width: 15%;
+  color: white;
+  line-height: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.fa-telegram-plane:hover {
+  color: #78f;
+}
+
+#btn {
+  color: black;
+  padding: 5px 5px;;
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
+  margin: 0 auto;
+  transition: 0.5s;
+
+}
+
+/* #btn:hover{
+   
+    padding-right: 30px;
+   
+    background:#6a7;
+   
+    transition:0.5s;
+   
+   }
+    */
+#form {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#form #botvalue {
+  padding: 5px 10px;
+  border-radius: 6px;
+  outline: none;
+  width: calc(100% - 20%);
+  line-height: 30px;
+  border: 1px solid #555;
+  font-size: 17px;
+  font-weight: normal;
+  font-size: 11px;
+}

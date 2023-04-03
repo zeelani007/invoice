@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
+    <link rel="stylesheet" href="./assets/css/chat.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/typing.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>demo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <!-- <img src="./images/logo.png" alt="image"> -->
+                        <img src="./assets/images/logo.png" alt="">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support</h4>
+                        <p class="chatbox__description--header">There are many variations of passages of Lorem Ipsum available</p>
+                    </div>
+                </div>
+                    <div class="main-container">
+                        <div id="chatbot-container">
+                       </div>
+                </div>
+                <div class="chatbox__footer">
+                    <button id="btn" type="button" onclick="startVoice()" class="fa fa-microphone"></button>
+                    <form id="form" method="get" accept-charset="utf-8">
+                     
+                        <input type="text" name="botvalue" id="botvalue" placeholder="Say something"/>
+                     
+                        <button type="submit" class="submit fab fa-telegram-plane"></button>
+                     
+                       </form>
+                     
+                      
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button>button</button>
+            </div>
+        </div>
+        
+    </div>
+    <header>
+
+      
+            <img src="images/152396 (2).png" alt="">
+    
+    
+            <div class="right">
+            <ul class="navbar">
+            <a class="active" href="#home"><b>HOME</b></a>
+            <a href="#dishes"><b>KITCHEN</b></a>
+            <a href="#about"><b>ABOUT</b></a>
+            <a href="#menu"><b>PRODUCTS</b></a>
+            <a href="#review"><b>REVIEWS</b></a>
+            <a href="#order"><b>ORDER</b></a>
+                </ul>
+    
+            
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    
+    </header>
+    
+    
+    
+    <!-- header section ends-->
+    
+    <!-- search form  -->
+    
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    
+    <!-- home section starts  -->
+    
+    <section class="home" id="home">
+    
+        <div class="swiper-container home-slider">
+    
+            <div class="swiper-wrapper wrapper">
+    
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Product</span>
+                        <h3>spoon set of 6</h3>
+                        <p>Much like people, even food has its right type. Our handcrafted Masai Cutlery' has the perfect match for all of your servings. 
+                            Masai tablespoon set of six are handcrafted and made of brass.
+                             </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/kitchen_set_607x607.jpg2.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Product</span>
+                        <h3>LOGICMART Pack of 32</h3>
+                        <p>LOGICMART Pack of 32 Melamin 32 pcs Melamine dinner set with 6 Full Plates,
+                             6 small plats, 12 Veg Bowls, 3 Serving Bowl with 2 lids, 
+                            </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/kitchen_set_607x607_2.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special product</span>
+                        <h3>Dinner Sets</h3>
+                        <p>Stainless Steel 72 PCS Dinner Set (6 People) with Rose Gold PVD Coating Majestic</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/kitchen_set_607x607_png.png " alt="">
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="swiper-pagination"></div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- home section ends -->
+    
+    <!-- dishes section starts  -->
+    
+    <section class="dishes" id="dishes">
+    
+        <h3 class="sub-heading"> our Shop</h3>
+        <h1 class="heading"> popular products </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/basket_image (1).jpg" alt="">
+                <h3>ironic Multipurpose Plastic Storage Basket</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/basket_image2.jpg" alt="">
+                <h3>ironic Multipurpose Plastic Storage Basket</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/basket_image3.jpg" alt="">
+                <h3>EZOWare Pack of 4 Small brown Plastic</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/basket_image4.jpg" alt="">
+                <h3>Nayasa Frill No.1 Plastic Fruit Basket, Small, Chocolate</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/basket_image5.jpg" alt="">
+                <h3>Storage Basket, Cosmetic Box</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/basket_image6.jpg" alt="">
+                <h3>Vayu Art N Craft Pine Wood Gift Box Gift Hamper Tray Storage Basket</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+        
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/basket_image7.jpg" alt="">
+            <h3>MSD MY Store Of Dreams Storage Basket  (Pack of 3)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/basket_image8.jpg" alt="">
+            <h3>AVMART Storage Basket  (Pack of 1)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/basket_image9.jpg" alt="">
+            <h3>CSM Sleek Baskets For Cosmetics, Stationery, Medicines or Cutlery(Pack of 4) Storage Basket  </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/basket_image10.jpg" alt="">
+            <h3>Morvi Plastic Home/Kitchen 3 Pcs,Black Color Plastic Fruit & Vegetable Basket(Black)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/basket_image11.jpg" alt="">
+            <h3>Grey Plastic Kitchen Sink Drain Basket</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/basket_image12.jpg" alt="">
+            <h3>Red Round Plastic Basket, For Home, Size: 8 Inch(diameter)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+    
+    </section>
+    
+    <!-- dishes section ends -->
+    
+    <!-- about section starts  -->
+    
+    <section class="about" id="about">
+    
+        <h3 class="sub-heading"> About us</h3>
+        <h1 class="heading"> why choose us Bellerbirdkitchen? </h1>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="images/Kitchen_image.jpg" alt="">
+            </div>
+    
+            <div class="content">
+                <h3>The Best Bellerbirdkitchen in the country</h3>
+                <p>A kitchen is a room or part of a room used for cooking and food preparation in a dwelling or in a commercial establishment. 
+                    A modern middle-class residential kitchen is typically equipped with a stove, a sink with hot and cold running water, 
+                    a refrigerator, and worktops and kitchen cabinets arranged according to a modular design. 
+                    Many households have a microwave oven, a dishwasher, and other electric appliances.
+                     The main functions of a kitchen are to store, prepare and cook food (and to complete related tasks such as dishwashing). The room or area may also be used for dining (or small meals such as breakfast), entertaining and laundry. 
+                    The design and construction of kitchens is a huge market all over the world.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Product Order</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Easy shopping</a>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- about section ends -->
+    
+    <!-- menu section starts  -->
+    
+    <section class="menu" id="menu">
+    
+        <h3 class="sub-heading">Our Products</h3>
+        <h1 class="heading">Spaical Items </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Glass Sets)</h3>
+                    <p>BELLERBIRD (Pack of 6) Prism With Feather Designe Shape Water Glasses Juice Glass Set For Kitchen Glass Set (300 ml, Plastic)</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Plastic Handi Shape Container)</h3>
+                    <p>BELLERBIRD Multicolor PLASTIC HANDI SHAPE FOOD CONTAINER, Box Packing, Size: 800 Ml</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Kit Kat Transparent Jar)</h3>
+                    <p> Kit Kat Transparent Jar | Air Tight Container | Kitchen Storage Plastic 1100ML (PACK OF 10, black)</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Lion Lender)</h3>
+                    <p>Lion Lender - 1100 ml Plastic Grocery Container  (Pack of 10, Blue)</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Steel Kitchen bartan stand)</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde voluptates incidunt ut vero, quidem aliquam non autem, consequuntur veritatis hic optio eaque, mollitia cupiditate velit tempora! Impedit, accusamus nostrum? Aliquid.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Air Tight Modular Kitchen Plastic Storage Containers)</h3>
+                    <p> Air Tight Modular Kitchen Plastic Storage Containers Jars Canister Box Combo Set -
+                         3500 Plastic Grocery Container 
+                          (Pack of 12, Brown)</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Kitchen Containers Set)</h3>
+                    <p>Kitchen Containers Set Air Tight Plastic 
+                        Storage Container Combo Boxes Dabba For Groceries -
+                         1100 ml Plastic Grocery Container
+                          (Pack of 12, Black)</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(12 Pcs Container With 12 Pc Spoon Spice) </h3>
+                    <p>12 Pcs Container With 12 Pc Spoon Spice Storage, Masala Storage, Masala Box,
+                         Spice Box, Masala Rack, Spice Jar, 
+                        Spice Container, Spice Set, Kitchen Rack, Condiment Set (Black)</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Kitchen Containers Combo Set)</h3>
+                   <p>2000ml,1500ml,1000ml,750ml,500ml,250ml, - 12000 ml Plastic Grocery Container  (Pack of 12, Blue)</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image10.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Silver Fridge Water Bottle 1000ml, 1 L)</h3>
+                    <p>Lorem ipsum dolor sit,Lorem ipsum dolor sit, Samson Silver Sporty Single Wall
+                         Stainless Steel Fridge Water Bottle 1000ml, 1 L </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image11.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Fridge Bottle)</h3>
+                    <p>
+                        water bottle set of fridge 1000 ml Bottle (Pack of 6, Blue, Black, Pink, Plastic)</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image12.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> BELLERBIRD (LEYONX Msala Box)</h3>
+                    <p>LEYONX Msala Box and Spice Container For Kitchen - 1000 ml Plastic Utility Container  (Brown)</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image13.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(12 pcs Containers)</h3>
+                    <p>Lorem ipsum dolor sit, Samson Silver Sporty Single Wall Stainless Steel Fridge Water Bottle 1000ml, 1 L</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image14.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>BELLERBIRD(Contanires)</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium. lorem
+    
+                    </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image15.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image16.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image17.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/kitche_image18 (1).jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+    
+    
+        </div>
+    
+    </section>
+    
+    <!-- menu section ends -->
+    
+    <!-- review section starts  -->
+    
+    <section class="review" id="review">
+    
+        <h3 class="sub-heading"> customer's review </h3>
+        <h1 class="heading"> what they say </h1>
+    
+        <div class="swiper-container review-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>Amar</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-4.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+    
+            </div>
+    
+        </div>
+        
+    </section>
+    
+    <!-- review section ends -->
+    
+    <!-- order section starts  -->
+    
+    <section class="order" id="order">
+    
+        <h3 class="sub-heading"> Shopping Now </h3>
+        <h1 class="heading"> free and fast</h1>
+    
+        <form action="">
+    
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>product Name</span>
+                    <input type="test" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>how musch</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your Review</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+    
+            <input type="submit" value="order now" class="btn">
+    
+        </form>
+    
+    </section>
+    
+    <!-- order section ends -->
+    
+    <!-- footer section starts  -->
+    
+    <section class="footer">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">india</a>
+                <a href="#">japan</a>
+                <a href="#">russia</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">kitchen</a>
+                <a href="#">about</a>
+                <a href="#">product</a>
+                <a href="#">reivew</a>
+                <a href="#">order</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">000000000</a>
+                <a href="#">kasper@infotech.org</a>
+                <a href="#">tasneemsheikh@gmail.com</a>
+                <a href="#">Delhi, india - 400104</a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+    
+        </div>
+    
+        <div class="credit"> copyright @ 2023 by <span>miss. web designer :-Tasneem Sheikh</span> </div>
+    
+    </section>
+    
+    <!-- footer section ends -->
+    
+   
+
+    <script src="./assets/js/Chat.js"></script>
+    <script src="./app.js"></script>
+    <script src="index.js"></script>
+
+
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+</body>
+</html>
